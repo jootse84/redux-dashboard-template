@@ -1,0 +1,23 @@
+header, main, footer {
+  padding-left: 240px;
+}
+
+@media only screen and (max-width: 1232px) {
+  header, main, footer {
+    padding-left: 0;
+  }
+}
+
+#dropdown-messages {
+  width: 300px !important;
+}
+.dropdown-content .row {
+  margin-bottom: 0px !important;
+}
+
+.modal-spinner {
+  position: absolute;
+  top: 30% !important;
+  left: 50%;
+  margin-left: -32px;
+}
